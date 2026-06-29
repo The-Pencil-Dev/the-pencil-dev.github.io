@@ -1,2 +1,7 @@
 # the-pencil-dev.github.io
-Website for Projects
+
+This is a Website for Projects.
+
+Current usecase:
+
+Pencilscript
