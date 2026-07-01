@@ -1,0 +1,66 @@
+Pencilscript Documentation for Alpha 1.0:
+
+*note: this page is subject to change, check every update here to see changes*
+
+command: "" for text (numbers, letters, symbols, etc)
+command: '' for variables
+command: `` for reporter (also called data holder)
+
+All data holders:
+
+math.result
+strings.result
+
+for non returning commands (upper, lower, add, subtract, etc):
+
+  they do not allow variable inputs at all.
+  nor data holder inputs
+
+for variables:
+support for data holders is mixed
+
+create: supports no data holders
+set: math.result, strings.result
+change: math.result
+delete: strings.result
+
+for pausing:
+
+supports math.result only
+but supports all variables
+
+for write:
+
+supports both math.result and strings.result
+but supports all variables
+
+commenting
+
+use 1 / only to denote a comment
+
+table of support:
+
+(note: does not include text because every command here supports text inputs)
+math.result is M
+and strings.result is S
+
+although called modulo here due to to the original name being too long, in pencilscript, it is remainder in practice in Alpha 1.0
+
+command | variables | reporters |
+write   | all       | M,S       |
+pause   | all       | M         |
+upper   | none      | none      |
+lower   | none      | none      |
+add     | none      | none      |
+subtract| none      | none      |
+multiply| none      | none      |
+divide  | none      | none      |
+random  | none      | none      |
+modulo  | none      | none      |
+set     | none      | M,S       |
+change  | none      | M         |
+create  | none      | none      |
+delete  | none      | S         |
+
+
+
