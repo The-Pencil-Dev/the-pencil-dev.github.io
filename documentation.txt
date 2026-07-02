@@ -2,8 +2,8 @@ Pencilscript Documentation for Alpha 1.0:
 
 *note: this page is subject to change, check every update here to see changes*
 
-command: "" for text (numbers, letters, symbols, etc)
-command: '' for variables
+command: for text (numbers, letters, symbols, etc)
+command; for variables
 command: `` for reporter (also called data holder)
 
 All data holders:
@@ -46,6 +46,7 @@ and strings.result is S
 
 although called modulo here due to to the original name being too long, in pencilscript, it is remainder in practice in Alpha 1.0
 
+---------------------------------
 command | variables | reporters |
 write   | all       | M,S       |
 pause   | all       | M         |
@@ -61,6 +62,5 @@ set     | none      | M,S       |
 change  | none      | M         |
 create  | none      | none      |
 delete  | none      | S         |
-
-
+---------------------------------
 
